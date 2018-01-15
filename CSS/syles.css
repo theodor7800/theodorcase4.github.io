@@ -1,0 +1,869 @@
+/* baggrundsbillede*/
+@charset "UTF-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container
+{
+    margin-top: -10%;
+   	background: url("../images/baggrund1.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 1500px;
+	margin-right: 0px; 
+}
+
+
+/* menuen */
+header { 
+ 
+	background-color: rgba(0,0,0,0.5);
+	height: 7%;
+	margin-top: -8px;
+	width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* overskriften */
+
+#overskrift {
+    margin-top: -10%;
+}
+
+#nyoverskrift {
+    padding-top: 7%;
+}
+
+
+/* logo */
+#logo {
+	
+	opacity: 0.8;
+	width: 15%;
+	margin-top: 20px;
+	margin-left: 2%;
+
+}
+
+#logo:hover {
+opacity: 1;
+width: 15.5%;
+}
+
+/*menu punkter*/
+
+nav {
+    list-style-type: none;
+    margin-right: 8%;
+	margin-top: -2.8%;
+    padding: 0;
+    overflow: hidden;
+	font-family: 'Comfortaa', cursive;
+	width: 100%;
+	
+}
+
+
+	
+	
+	
+
+li {
+    float: right;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+#overskrift {
+	
+	font-size: 150%;
+	margin-top: 10%;
+	text-align: center;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	
+}
+
+/* scroll down pil */
+
+ #pil {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80px;
+    height: 64px;
+    display: block;
+    background-position: center center;
+
+}
+
+/* billedet nederst på forsiden */
+
+#sortbaggrund { 
+
+	margin-top: 40%;
+	height: 40%;
+	font-size: 100%;
+	text-align: center;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	background-image: url(../images/heltnybaggrund.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+
+
+}
+
+/* billedet af mig */
+
+#mig {
+    height: 60%;
+    width: 18%;
+    align-items: center;
+    
+
+}
+
+#forsidetekst {
+    text-align: left;
+    width: 30%;
+    margin: auto;
+    
+    
+}
+
+/* tekst på case 1,2 og 3 */
+.casebeskrivelse{
+    color: white;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    font-size: 120%;
+    margin-top: 2%;
+    background-color: rgba(0,0,0,0.4);
+    
+   
+    
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+    font-family: 'Comfortaa', cursive;
+    background-image: url(../images/footerbillede.jpg);
+	
+
+}
+
+footer section {
+    float: left;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 38%;
+    margin-left: 6%;
+    text-align: center;
+    
+
+	
+}
+
+
+
+footer li {
+    text-align: left;
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+
+
+.overskrift { 
+
+font-size: 25px;
+	padding: 10px;
+	color: #ffffff;
+
+}
+
+#links a{ 
+
+margin-top: 20px;
+color: #ffffff;
+
+text-decoration: none;
+
+}
+
+a:hover { 
+
+font-size: 20px;
+
+}
+
+.copyright {
+	
+	
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.social {
+	margin-top: 20px;
+	height: 20px;
+}
+
+.social:hover {
+	margin-top: 20px;
+	height: 20px;
+	font-size: 200px;
+	
+}
+
+/* Mine projekter */
+
+.mine-projekter {
+	margin:auto;
+	max-width:960px;
+	padding-top:30px;
+}
+
+.mine-projekter-beskrivelse {
+	max-width: 500px;
+}
+
+.mine-projekter p {
+	color:#fff;
+	font-family: 'Comfortaa', cursive;
+}
+
+.mine-projekter h6 {
+	text-align: left;
+}
+
+.mine-projekter img {
+	max-width:450px !important;
+	float:left !important;
+	padding-right:10px;
+	margin:0 !important;
+}
+
+.mine-projekter img:hover {
+	max-width:400px;
+}
+
+.projekt-container {
+	width:100%;
+	max-width:960px;
+	margin-top:20px;
+	min-height:250px;
+}
+
+.projekt-container {
+	width:100%;
+	max-width:960px;
+	margin-top:20px;
+	min-height:250px;
+}
+
+#projekter{
+    height: 40%;
+}
+
+
+#godsbanen {
+    margin-top: 4%;
+    margin-left: 28%;
+}
+
+#godsbanen:hover {
+    opacity: 1;
+width: 27%;
+}
+
+#magasin {
+    margin-left: -27%;
+    margin-bottom: -20%;
+    
+
+}
+
+#magasin:hover {
+    opacity: 1;
+width: 27%;
+}
+
+#lapyramide {
+    margin-left: 28%;
+    margin-top: 25%;
+    
+}
+
+#lapyramide:hover {
+    opacity: 1;
+width: 27%;
+}
+
+/* overskrift til projekter*/
+h2 {
+    font-family: 'Comfortaa', cursive;
+    padding-left: 35%;
+    color: white;
+    font-size:300%
+}
+
+/* læs mere knappen*/
+.knap1 {
+    background-color:  #3366ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;           
+}
+
+
+
+.knapperne {
+    margin-left: 57%;
+}
+
+
+
+.knapperne:hover {
+    opacity: 1;
+width: 99.7%;
+}
+
+/* næste side knappen*/
+.nedersteknap {
+    margin-top: 3%;
+    margin-left: 45%
+    
+}
+
+#nedersteknap2{
+    margin-left: 45%;
+    margin-top: 22%;
+    width: 20%;
+}
+
+/* tekst til mine projekter*/
+
+#tekst1 {
+    margin-left: 57%;
+    font-size: 110%;
+    margin-top: -55%;
+    color: white;
+    
+    
+}
+
+
+#tekst2 {
+   margin-top: 8.5%;
+    margin-left: 57%;
+    color: white;
+    font-size: 110%;
+    font-family: 
+    
+    
+    
+    
+}
+
+#tekst3 {
+    margin-top: 8.5%;
+    margin-left: 57%;
+    font-size: 110%;
+    color: white
+    
+    
+}
+
+/* knap til at gå tilbage*/
+
+#tilbagepil {
+    padding-left: 0%;
+    height: 0%;
+    width: 10%;
+    padding-top: 15%;
+    
+    
+}
+
+#tilbagepil:hover {
+       opacity: 1;
+width: 9.8%;
+    
+}
+
+
+/*overskrifter*/
+h4 {
+    color:white;
+    margin-left: 45%;
+    font-size: 250%;
+    margin-top: -3%;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+h5 {
+  color:white;
+    margin-left: 26%;
+    font-size: 250%;
+    margin-top: -3%;
+    font-family: 'Comfortaa', cursive;  
+}
+
+/* photoshop */
+#photoshop1 {
+    height: 50%;
+    width: 30%;
+    margin-left: 28%;
+    margin-top: 4%;
+}
+
+
+
+#photoshoptekst1 {
+    color: white;
+    margin-left: 60%;
+    margin-top: -17%;
+    font-size: 125%;
+    
+    
+}
+
+#photoshop2 {
+    width: 30%;
+    margin-left: 28%;
+    margin-top: 10%;
+    
+}
+
+#photoshoptekst2 {
+    color: white;
+    margin-left: 60%;
+    margin-top: -20%;
+    font-size: 125%;
+    
+}
+
+/* overskrift til projekter*/
+
+
+h6 {
+    color: white;
+    font-size: 200%;
+    font-family: 'Comfortaa', cursive;
+    
+}
+/* billede til case opgave beskrivelse */
+
+.casegodsbanen1 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+#caselapyramide {
+width: 90%;
+margin-top: 5%;
+}
+
+
+#venn div{margin-top: 350px;
+	        height: 50vh;
+	        width: 33vw;
+	        border-radius: 500px;
+	 -khtml-border-radius:500px;
+	   -moz-border-radius:500px;
+	-webkit-border-radius:500px;
+	        border: 3px solid #000;
+	        display: table;
+	        float: left;
+	        opacity: .4;}
+
+/*VENDIAGRAM*//*LEFT*/
+#venn div:nth-child(1){font-size: 1.1vw;
+                       color: #fff;
+                       background-color: rebeccapurple;
+                       border-color: rebeccapurple;
+	                     margin-left: 1%;
+	                     padding: 6%;}
+
+/*VENDIAGRAM*//*MIDDLE*/
+#venn div:nth-child(2){font-size: 1.1vw;
+                       color: #fff;
+                       background-color: lightblue;
+                       border-color: lightblue;
+	                     margin-left: 25%;
+	                     padding: 6%;}
+
+/*VENDIAGRAM*//*RIGHT*/
+#venn div:nth-child(3){font-size: 1.1vw;
+                       color: #fff;
+                       background-color: #5cb85c;
+                       border-color: #4cae4c;
+	                     margin-left: 50%;
+	                     padding: 6%;}
+
+/*VENDIAGRAM*//*POSITIONING TYPE*/
+.parent {position: relative;}
+.child {position: absolute;}
+
+/*VENDIAGRAM*//*GROW*/
+.grow {transition: all .2s ease-in-out;}
+.grow:hover {transform: scale(1.5);}
+
+/*VENDIAGRAM*//*HOVER*/
+#venn div:hover{width: 20vw;
+	              opacity: 1;
+                z-index: 10;}
+
+
+
+
+
+
+
+
+
+/* responsiv */
+
+@media only screen and (max-width : 1000px) { 
+#logo {
+    display: none;}
+	
+#nyoverskrift {
+    padding-top: 26%;
+    font-size: 60%;}
+
+nav {
+    list-style-type: none;
+    margin-left: -10%;
+	margin-top: 3%;
+    padding: 0;
+    overflow: hidden;
+	font-family: 'Comfortaa', cursive;
+    width: 100%;
+font-size: 96%;}
+    
+	
+#sortbaggrund { 
+    
+	margin-top: 162%;
+	height: 50%;
+	font-size: 100%;
+	text-align: center;
+	color: white;
+    font-family: 'Comfortaa', cursive;}
+    
+#pil {
+    margin-bottom: 21%;
+    width: 80px;
+    height: 64px;
+    display: block;
+        background-position: center center;}
+
+ #mig {
+    height: 60%;
+    width: 40%;
+    align-items: center;
+     margin-top: 20%;}
+   
+    h2 {
+    font-family: 'Comfortaa', cursive;
+    margin-left: -4%;
+    color: white;
+        font-size: 200%
+    }
+
+
+   #godsbanen {
+    margin-top: 12%;
+    margin-left: 10%; 
+    width: 80%;}
+    
+    #godsbanen:hover {
+width: 80%;
+}
+    
+    #magasin {
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 80%;}
+    
+#magasin:hover {
+width: 80%;
+}
+
+    
+    #lapyramide {
+    margin-left: 10%;
+    margin-top: 40%;
+        width: 80%;}
+
+    #lapyramide:hover {
+        width: 80%;}
+    
+    
+   #tekst1 {
+       display: none;}
+    
+    #tekst2 {
+        display: none;}
+    #tekst3 {
+        display: none;}
+    
+    
+    .nedersteknap {
+        margin-left: 33%;
+        margin-top: 20%;
+    }
+    
+    .knapperne {
+    margin-left: 33%;
+margin-top: 1%;}
+    
+
+   
+       h5 {
+  color:white;
+    margin-left: 26%;
+    font-size: 200%;
+    margin-top: %;
+         font-family: 'Comfortaa', cursive;}  
+    
+    
+    #photoshop1 {
+    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+        margin-top: 15%;}
+       
+
+    
+    #photoshoptekst1 {
+    color: white;
+    margin-left: 5%;
+    margin-top: 4%;
+        font-size: 125%;}
+    
+    
+    #photoshop2 {
+    width: 90%;
+    margin-left: 5%;
+        margin-top: 20%;}
+    
+    
+#photoshoptekst2 {
+    color: white;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 125%;}
+  
+
+    
+    
+    #tilbagepil {
+    height: 0%;
+    width: 30%;
+        padding-top: 25%;}
+
+ #tilbagepil:hover {
+width: 30%;
+     }
+    
+#nedersteknap2{
+    margin-left: 35%;
+    margin-top: 24%;
+    width: 20%;}
+    
+#forsidetekst {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+background-color: black;}   
+
+    h6 {
+        color: white;
+        font-size: 150%;
+    }
+    
+    
+    .container
+{
+    margin-top: -10%;
+   	background: url("../images/baggrund1.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	margin-right: 0px; 
+    }
+
+    .casebeskrivelse{
+    color: white;
+    text-align: left;
+    width: 85%;
+    margin: auto;
+    font-size: 120%;
+    margin-top: 2%;
+    background-color: rgba(0,0,0,0.4);
+        margin-bottom: 10%;}
+    h4 {
+        margin-left: 30%
+    }
+    
+    .casegodsbanen1 {
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 5%;
+        margin-bottom: 13%;}
+    
+}
+
+/* Mine projekter */
+
+.mine-projekter {
+	margin:auto;
+	max-width:960px;
+	padding-top:30px;
+}
+
+.mine-projekter-beskrivelse {
+	max-width: none;
+	float:left;
+}
+
+.mine-projekter p {
+	color:#fff;
+	font-family: 'Comfortaa', cursive;
+}
+
+.mine-projekter h6 {
+	text-align: left;
+}
+
+.mine-projekter img {
+	max-width:none;
+	width:100%;
+	padding-right:10px;
+	margin-top:20px;
+	margin-bottom:30px;
+}
+
+.mine-projekter img:hover {
+	max-width:none;
+}
+
+.projekt-container {
+	width:100%;
+	max-width:960px;
+	margin-top:20px;
+	min-height:250px;
+}
+
+@media (max-width: 850px) {
+  #venn div:nth-child(1){font-size: 1.3vw;
+	                       margin-left: 5%;
+	                       padding: 6%;} 
+
+  #venn div:nth-child(2){font-size: 1.3vw;
+	                       margin-left: 32%;
+	                       padding: 6%;}
+
+  #venn div:nth-child(3){font-size: 1.3vw;
+	                       margin-left: 60%;
+	                       padding: 6%;}}
+
+
+@media (max-width: 700px) {
+  #venn div:nth-child(1){font-size: 1.5vw;
+	                       margin-left: 5%;
+	                       padding: 6%;} 
+
+  #venn div:nth-child(2){font-size: 1.5vw;
+	                       margin-left: 32%;
+	                       padding: 6%;}
+
+  #venn div:nth-child(3){font-size: 1.5vw;
+	                       margin-left: 60%;
+	                       padding: 6%;}}
+
+
+@media (max-width: 600px) {
+  #venn div:nth-child(1){font-size: 1.7vw;
+	                       margin-left: 5%;
+	                       padding: 6%;}
+
+  #venn div:nth-child(2){font-size: 1.7vw;
+	                       margin-left: 32%;
+	                       padding: 6%;}
+
+  #venn div:nth-child(3){font-size: 1.7vw;
+	                       margin-left: 60%;
+	                       padding: 6%;}}
+
+
+@media (max-width: 500px) {
+  #venn div:nth-child(1){font-size: 1.9vw;
+	                       margin-left: 5%;
+	                       padding: 6%;}
+
+	#venn div:nth-child(2){font-size: 1.9vw;
+	                       margin-left: 32%;
+	                       padding: 6%;}
+
+  #venn div:nth-child(3){font-size: 1.9vw;
+	                       margin-left: 60%;
+	                       padding: 6%;}}
+
+
+@media (max-width: 400px) {
+  #venn div:nth-child(1){font-size: 2.2vw;
+	                       margin-left: 5%;
+	                       padding: 6%;}
+
+  #venn div:nth-child(2){font-size: 2.2vw;
+	                       margin-left: 32%;
+	                       padding: 6%;}
+
+  #venn div:nth-child(3){font-size: 2.2vw;
+	                       margin-left: 60%;
+	                       padding: 6%;}}
